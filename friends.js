@@ -5,7 +5,7 @@
     const ret = [];
     
     for (let u in users)
-        ret.push(`${users[u].username}#${users[u].discriminator}`);
+         ret.push(users[u].tag);
 
     return ret;
 })()
