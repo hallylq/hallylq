@@ -1,3 +1,5 @@
+// https://github.com/rauenzi/BDPluginLibrary/blob/master/release/0PluginLibrary.plugin.js
+
 (() =>
 {
     const ids = ZeresPluginLibrary.WebpackModules.getByProps("getFriendIDs").getFriendIDs();
